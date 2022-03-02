@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>API</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label>{{ data.reference }}</ion-label>
+  </ion-item>
+
+  <ion-list>
+    <ion-item *ngFor="let verse of verses">
+      <ion-label>Name: {{ verse.book_name }}</ion-label>
+      <br/>
+      <!-- <ion-label>Name: {{ verse.text }}</ion-label> -->
+    </ion-item>
+  </ion-list>
+</ion-content>

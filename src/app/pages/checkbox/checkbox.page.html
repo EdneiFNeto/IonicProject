@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Checkbox</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+    <ion-item *ngFor="let month of months">
+      <ion-label>{{month.name}}</ion-label>
+      <ion-checkbox checked="{{month.status}}" [(ngModel)]="month.status"
+      (click)="showMonthSelected(month)"></ion-checkbox>
+    </ion-item>
+  </ion-list>
+</ion-content>
