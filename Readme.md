@@ -141,7 +141,7 @@ interface Month {
     constructor(private http: HttpClient) { }
 
     getApi(){
-      const url = 'https://bible-api.com/john%203:16';
+      const url = 'http://localhost:3000/teste';
       return this.http.get(url).toPromise();
     }
   }
