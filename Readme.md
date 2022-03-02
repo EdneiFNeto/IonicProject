@@ -28,7 +28,6 @@ Passo a passo simples para iniciar dev em IONC
 
 Dentro da pasta src/index existe um arquivo index com uma tag: 
 - <app-root></app-root>
-
 Esta TAG [Selector] é encontrada dentro do arquivo src/app/app/app.component.ts
 
 ```TypeScript 
@@ -57,10 +56,11 @@ const routes: Routes = [
 ];
 ```
 
-### Criando Paginas
+### Criando Paginas, Componentes, Services
 
-- [Criar pagina](https://ionicframework.com/docs/cli/commands/generate) ionic g page pages/name_path
-
+- [Pages](https://ionicframework.com/docs/cli/commands/generate) ionic g page pages/name
+- [Component](https://ionicframework.com/docs/cli/commands/generate) ionic g component component/name
+- [Service](https://ionicframework.com/docs/cli/commands/generate) ionic g service service/name
 
 ## Navegacao
 
